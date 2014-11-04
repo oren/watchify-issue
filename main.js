@@ -14,7 +14,5 @@ document.addEventListener('load', function() {
     img.src = img.getAttribute('data-src');
     img.removeAttribute('data-src');
   }
-
-  console.log('foo');
 });
 
